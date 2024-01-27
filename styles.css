@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+    --sky-blue: rgb(61, 61, 155);
+
+}
+.container {
+    width: 600px;
+    margin: 20px auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 50px;
+}
+
+
+h1 {
+    color: var(--sky-blue);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.twimba-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.my-tweet-wrapper {
+    display: flex;
+    gap: 20px;
+    
+   
+}
+
+.tweet-btn {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 25px;
+  background-color: var(--sky-blue);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.tweet-btn:hover {
+    background-color: rgb(93, 93, 206);
+}
+
+.tweet-input {
+    padding: 10px;
+    width: 80%;
+    font-size: 30px;
+    resize: none;
+    outline: none;
+    border: none;
+    
+}
+
+.tweet-div, .tweet-reply-div {
+    display: flex;
+    padding: 20px 0;
+    gap: 40px;
+    border-top: 2px solid rgba(128, 128, 128, 0.288);
+    width: 80%; 
+}
+
+.tweet-reply-div {
+    width: 60%;
+    margin-left: 50px;
+}
+
+.icon-info {
+    display: flex;
+    gap: 20px;
+}
+
+.tweet-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+i {
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: rgb(202, 190, 190);
+}
+
+.liked {
+    color: red;
+}
+
+.retweeted {
+    color: rgb(67, 207, 67);
+}
+
+.hidden {
+    display: none;
+}
+/* .fa-solid:hover {
+    color: blueviolet;
+} */
